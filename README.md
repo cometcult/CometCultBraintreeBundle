@@ -13,7 +13,7 @@ Just add to your composer.json file:
 
 ```json
 {
-    require: {
+    "require": {
         "cometcult/braintree-bundle": "dev-master"
     }
 }
