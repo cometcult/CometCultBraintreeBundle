@@ -1,0 +1,7 @@
+parameters:
+  comet_cult_braintree.factory.class: CometCult\BraintreeBundle\Factory\BraintreeFactory
+
+services:
+  comet_cult_braintree.factory:
+    class:  "%comet_cult_braintree.factory.class%"
+    arguments: ["%comet_cult_braintree.environment%", "%comet_cult_braintree.merchant_id%", "%comet_cult_braintree.public_key%", "%comet_cult_braintree.private_key%"]

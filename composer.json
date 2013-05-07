@@ -1,0 +1,30 @@
+{
+    "name": "cometcult/braintree-bundle",
+    "type": "symfony-bundle",
+    "description": "Symfony 2 Bundle for Braintree's PHP client library",
+    "keywords": ["braintree", "bundle", "payment", "credit", "card"],
+    "homepage": "http://github.com/cometcult/CometCultBraintreeBundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Karol Sójko",
+            "email": "zoja87@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.2",
+        "braintree/braintree_php": "dev-master"
+    },
+    "require-dev": {
+        "symfony/framework-bundle": ">=2.2,<2.3-dev",
+        "phpspec/phpspec": "dev-master"
+    },
+    "autoload": {
+        "psr-0": { "CometCult\\BraintreeBundle": "" }
+    },
+    "config": {
+      "bin-dir": "bin"
+    },
+    "minimum-stability": "dev",
+    "target-dir": "CometCult/BraintreeBundle"
+}
