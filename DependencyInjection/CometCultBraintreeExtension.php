@@ -24,5 +24,18 @@ class CometCultBraintreeExtension extends Extension
 
         $loader = new Loader\YamlFileLoader($container, new FileLocator(__DIR__.'/../Resources/config'));
         $loader->load('services.yml');
+
+        if (isset($config['environment'])) {
+            $container->setParameter('comet_cult_braintree.environment', $config['environment']);
+        }
+        if (isset($config['merchant_id'])) {
+            $container->setParameter('comet_cult_braintree.merchant_id', $config['merchant_id']);
+        }
+        if (isset($config['public_key'])) {
+            $container->setParameter('comet_cult_braintree.public_key', $config['public_key']);
+        }
+        if (isset($config['private_key'])) {
+            $container->setParameter('comet_cult_braintree.private_key', $config['private_key']);
+        }
     }
 }
