@@ -7,6 +7,8 @@ Symfony 2 Bundle for Braintree's PHP client library
 Installation
 ------------
 
+### Composer ###
+
 Just add to your composer.json file:
 
 ```json
@@ -16,6 +18,23 @@ Just add to your composer.json file:
     }
 }
 ```
+
+### Application Kernel ###
+
+Add the bundle to your application's kernel:
+```php
+// app/AppKernel.php
+
+public function registerBundles()
+{
+    return array(
+        // ...
+        new CometCult\BraintreeBundle\CometCultBraintreeBundle(),
+        // ...
+    );
+}
+```
+
 
 Configuration
 -------------
