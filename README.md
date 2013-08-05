@@ -1,6 +1,7 @@
 CometCultBraintreeBundle
 ========================
 [![Build Status](https://secure.travis-ci.org/cometcult/CometCultBraintreeBundle.png)](http://travis-ci.org/cometcult/CometCultBraintreeBundle)
+[![Scrutinizer Quality Score](https://scrutinizer-ci.com/g/cometcult/CometCultBraintreeBundle/badges/quality-score.png?s=1972a8eb4257406f4e43a9b944dac03f17a0126d)](https://scrutinizer-ci.com/g/cometcult/CometCultBraintreeBundle/)
 
 Symfony 2 Bundle for Braintree's PHP client library
 
