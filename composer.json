@@ -26,8 +26,5 @@
     "autoload": {
         "psr-0": { "CometCult\\BraintreeBundle": "" }
     },
-    "config": {
-      "bin-dir": "bin"
-    },
     "target-dir": "CometCult/BraintreeBundle"
 }
